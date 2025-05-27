@@ -3,29 +3,33 @@ import React from 'react';
 
 const WhatGotYouHereSection = () => {
   return (
-    <section className="py-32 px-6">
-      <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl md:text-5xl font-playfair font-medium text-gray-900 mb-16 text-center">
-          What Got You Here Won't Get You There
-        </h2>
-        
-        <div className="prose prose-xl max-w-none text-gray-700">
-          <p className="text-xl leading-relaxed mb-8 text-balance">
-            You learned early that success required sacrifice. Sleep, relationships, 
-            presence—all traded for the next milestone, the next achievement, the next validation.
-          </p>
+    <section className="py-40 px-8 bg-stone-100/40">
+      <div className="max-w-5xl mx-auto">
+        <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-16 shadow-gentle border border-stone-200/50">
+          <h2 className="text-5xl md:text-6xl font-playfair font-medium text-stone-800 mb-20 text-center tracking-tight">
+            What Got You Here Won't Get You There
+          </h2>
           
-          <p className="text-xl leading-relaxed mb-8 text-balance">
-            Those patterns served you. They built empires, launched companies, 
-            and earned respect. But somewhere along the way, the engine that powered 
-            your rise began consuming the very life you were trying to build.
-          </p>
-          
-          <p className="text-xl leading-relaxed text-balance">
-            The cost isn't always visible at first. It shows up as a persistent emptiness, 
-            a disconnection from what once mattered, a sense that you're succeeding 
-            at the wrong game entirely.
-          </p>
+          <div className="prose prose-2xl max-w-none text-stone-700 prose-custom space-y-10">
+            <p className="text-2xl leading-relaxed text-balance">
+              You've paid the price for what you've built—sleepless nights, constant pressure, 
+              and a nervous system that never got to land.
+            </p>
+            
+            <p className="text-2xl leading-relaxed text-balance">
+              For years, it worked. But now the cost is showing up in your body, 
+              your energy, your ability to feel.
+            </p>
+            
+            <p className="text-2xl leading-relaxed text-balance font-medium text-stone-800">
+              The very engine that fueled your rise is starting to burn through you.
+            </p>
+            
+            <p className="text-2xl leading-relaxed text-balance">
+              This isn't about collapse—it's about recognition. That you've outgrown 
+              the strategy that got you here. And something wiser is ready to emerge.
+            </p>
+          </div>
         </div>
       </div>
     </section>
