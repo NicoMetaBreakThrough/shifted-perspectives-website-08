@@ -1,9 +1,6 @@
-
 import React from 'react';
-
 const HeroSection = () => {
-  return (
-    <section className="min-h-screen flex items-center justify-center px-2 md:px-4 pt-16 md:pt-20 pb-4 md:pb-6 bg-gradient-to-br from-stone-50 to-stone-100/80">
+  return <section className="min-h-screen flex items-center justify-center px-2 md:px-4 pt-16 md:pt-20 pb-4 md:pb-6 bg-gradient-to-br from-stone-50 to-stone-100/80 py-[40px]">
       <div className="max-w-4xl mx-auto text-center">
         <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-soft border border-stone-200/50">
           <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-playfair font-medium text-stone-800 mb-4 md:mb-6 leading-[0.9] text-balance tracking-tight">
@@ -20,8 +17,6 @@ const HeroSection = () => {
           </p>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default HeroSection;
