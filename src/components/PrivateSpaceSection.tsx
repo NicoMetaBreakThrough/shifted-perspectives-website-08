@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 const PrivateSpaceSection = () => {
   return (
-    <section className="py-8 md:py-12 px-4 md:px-6 bg-stone-100/40">
+    <section className="py-6 md:py-8 px-2 md:px-4 bg-stone-100/40">
       <div className="max-w-4xl mx-auto">
-        <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-6 md:p-10 shadow-gentle border border-stone-200/50">
+        <div className="bg-white/70 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-gentle border border-stone-200/50">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-medium text-stone-800 mb-8 md:mb-10 text-center tracking-tight">
             A Private Space for Real Change
           </h2>

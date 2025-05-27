@@ -1,11 +1,10 @@
-
 import React from 'react';
 
 const NothingWrongSection = () => {
   return (
-    <section className="py-8 md:py-12 px-4 md:px-6 bg-gradient-to-br from-stone-50 to-stone-100/60">
+    <section className="py-6 md:py-8 px-2 md:px-4 bg-gradient-to-br from-stone-50 to-stone-100/60">
       <div className="max-w-3xl mx-auto">
-        <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-6 md:p-10 shadow-soft border border-stone-200/50">
+        <div className="bg-white/80 backdrop-blur-sm rounded-3xl p-4 md:p-6 lg:p-8 shadow-soft border border-stone-200/50">
           <h2 className="text-2xl md:text-3xl lg:text-4xl font-playfair font-medium text-stone-800 mb-6 md:mb-8 text-center tracking-tight">
             There's Nothing Wrong With You
           </h2>
